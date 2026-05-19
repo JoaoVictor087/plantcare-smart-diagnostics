@@ -1,0 +1,316 @@
+id_registro,tipo_planta,dias_sem_rega,frequencia_ideal_rega,umidade_solo,luz_recebida,temperatura_media_c,folhas_amareladas,folhas_murchas,manchas_folhas,crescimento_lento,solo_compactado,diagnostico,nivel_risco,recomendacao
+PC-0001,manjericao,1,2,encharcado,media,26,sim,sim,nao,nao,sim,excesso_agua,alto,Reduzir a frequencia de rega e verificar se o vaso possui boa drenagem.
+PC-0002,zamioculca,1,10,encharcado,media,23,sim,sim,nao,sim,nao,excesso_agua,alto,Reduzir a frequencia de rega e verificar se o vaso possui boa drenagem.
+PC-0003,suculenta,10,10,normal,baixa,24,sim,nao,sim,sim,sim,possivel_praga,alto,"Inspecionar folhas e caule, isolar a planta se necessario e remover folhas afetadas."
+PC-0004,suculenta,2,10,encharcado,media,23,sim,sim,nao,sim,sim,excesso_agua,alto,Reduzir a frequencia de rega e verificar se o vaso possui boa drenagem.
+PC-0005,costela_de_adao,3,5,normal,media,27,nao,nao,nao,sim,nao,saudavel,baixo,Manter a rotina atual de cuidados e observar a planta nos proximos dias.
+PC-0006,lirio_da_paz,1,3,encharcado,media,19,sim,nao,nao,nao,sim,excesso_agua,alto,Reduzir a frequencia de rega e verificar se o vaso possui boa drenagem.
+PC-0007,orquidea,7,7,seco,media,27,sim,nao,sim,sim,nao,possivel_praga,alto,"Inspecionar folhas e caule, isolar a planta se necessario e remover folhas afetadas."
+PC-0008,samambaia,6,2,seco,alta,34,nao,sim,nao,sim,nao,falta_agua,medio,Regar a planta e acompanhar a recuperacao das folhas nas proximas 24 horas.
+PC-0009,manjericao,2,2,encharcado,baixa,18,sim,nao,nao,nao,sim,excesso_agua,alto,Reduzir a frequencia de rega e verificar se o vaso possui boa drenagem.
+PC-0010,samambaia,8,2,seco,media,35,sim,sim,nao,sim,nao,falta_agua,medio,Regar a planta e acompanhar a recuperacao das folhas nas proximas 24 horas.
+PC-0011,samambaia,1,2,normal,media,20,sim,nao,nao,sim,nao,necessita_adubo,baixo,Avaliar adubacao leve conforme o tipo da planta e manter acompanhamento semanal.
+PC-0012,jiboia,5,4,normal,media,27,sim,nao,nao,sim,nao,necessita_adubo,baixo,Avaliar adubacao leve conforme o tipo da planta e manter acompanhamento semanal.
+PC-0013,orquidea,5,7,seco,media,27,nao,nao,nao,sim,nao,saudavel,baixo,Manter a rotina atual de cuidados e observar a planta nos proximos dias.
+PC-0014,samambaia,6,2,seco,alta,29,sim,sim,nao,sim,nao,falta_agua,medio,Regar a planta e acompanhar a recuperacao das folhas nas proximas 24 horas.
+PC-0015,jiboia,4,4,normal,media,26,nao,nao,nao,nao,nao,saudavel,baixo,Manter a rotina atual de cuidados e observar a planta nos proximos dias.
+PC-0016,suculenta,2,10,encharcado,media,23,sim,nao,nao,sim,nao,excesso_agua,alto,Reduzir a frequencia de rega e verificar se o vaso possui boa drenagem.
+PC-0017,espada_de_sao_jorge,1,12,encharcado,baixa,25,sim,nao,nao,sim,sim,excesso_agua,alto,Reduzir a frequencia de rega e verificar se o vaso possui boa drenagem.
+PC-0018,cacto,15,14,seco,alta,37,nao,sim,nao,nao,nao,excesso_sol,medio,Mover a planta para um local com menos sol direto e evitar exposicao nas horas mais quentes.
+PC-0019,samambaia,3,2,normal,media,21,sim,sim,nao,sim,nao,necessita_adubo,baixo,Avaliar adubacao leve conforme o tipo da planta e manter acompanhamento semanal.
+PC-0020,costela_de_adao,4,5,normal,media,29,sim,sim,nao,sim,sim,necessita_adubo,baixo,Avaliar adubacao leve conforme o tipo da planta e manter acompanhamento semanal.
+PC-0021,cacto,2,14,encharcado,media,23,sim,nao,nao,sim,sim,excesso_agua,alto,Reduzir a frequencia de rega e verificar se o vaso possui boa drenagem.
+PC-0022,jiboia,11,4,seco,media,29,nao,sim,nao,sim,nao,falta_agua,medio,Regar a planta e acompanhar a recuperacao das folhas nas proximas 24 horas.
+PC-0023,jiboia,0,4,encharcado,baixa,26,sim,sim,nao,sim,nao,excesso_agua,alto,Reduzir a frequencia de rega e verificar se o vaso possui boa drenagem.
+PC-0024,suculenta,9,10,normal,baixa,24,sim,nao,nao,sim,nao,pouca_luz,medio,Mover a planta para um local com mais luz indireta e acompanhar o crescimento.
+PC-0025,samambaia,2,2,normal,media,23,nao,nao,sim,nao,nao,possivel_praga,alto,"Inspecionar folhas e caule, isolar a planta se necessario e remover folhas afetadas."
+PC-0026,lirio_da_paz,5,3,normal,baixa,26,sim,nao,nao,sim,nao,necessita_adubo,baixo,Avaliar adubacao leve conforme o tipo da planta e manter acompanhamento semanal.
+PC-0027,cacto,19,14,seco,media,28,nao,sim,nao,sim,nao,falta_agua,medio,Regar a planta e acompanhar a recuperacao das folhas nas proximas 24 horas.
+PC-0028,suculenta,11,10,seco,alta,35,sim,nao,nao,nao,nao,excesso_sol,medio,Mover a planta para um local com menos sol direto e evitar exposicao nas horas mais quentes.
+PC-0029,espada_de_sao_jorge,4,12,encharcado,baixa,25,sim,sim,sim,nao,sim,excesso_agua,alto,Reduzir a frequencia de rega e verificar se o vaso possui boa drenagem.
+PC-0030,cacto,14,14,encharcado,baixa,19,sim,nao,sim,sim,nao,pouca_luz,medio,Mover a planta para um local com mais luz indireta e acompanhar o crescimento.
+PC-0031,cacto,12,14,normal,baixa,32,nao,sim,sim,nao,nao,possivel_praga,alto,"Inspecionar folhas e caule, isolar a planta se necessario e remover folhas afetadas."
+PC-0032,cacto,15,14,seco,alta,31,sim,nao,sim,sim,sim,possivel_praga,alto,"Inspecionar folhas e caule, isolar a planta se necessario e remover folhas afetadas."
+PC-0033,lirio_da_paz,2,3,encharcado,baixa,18,sim,nao,nao,sim,sim,excesso_agua,alto,Reduzir a frequencia de rega e verificar se o vaso possui boa drenagem.
+PC-0034,cacto,16,14,normal,baixa,24,sim,sim,sim,sim,nao,possivel_praga,alto,"Inspecionar folhas e caule, isolar a planta se necessario e remover folhas afetadas."
+PC-0035,jiboia,1,4,encharcado,baixa,25,sim,nao,nao,sim,nao,excesso_agua,alto,Reduzir a frequencia de rega e verificar se o vaso possui boa drenagem.
+PC-0036,zamioculca,12,10,normal,baixa,24,nao,nao,sim,sim,nao,possivel_praga,alto,"Inspecionar folhas e caule, isolar a planta se necessario e remover folhas afetadas."
+PC-0037,suculenta,0,10,encharcado,baixa,25,sim,sim,nao,sim,nao,excesso_agua,alto,Reduzir a frequencia de rega e verificar se o vaso possui boa drenagem.
+PC-0038,manjericao,4,2,seco,alta,32,sim,sim,sim,nao,nao,excesso_sol,medio,Mover a planta para um local com menos sol direto e evitar exposicao nas horas mais quentes.
+PC-0039,lirio_da_paz,4,3,encharcado,baixa,27,nao,nao,sim,sim,nao,possivel_praga,alto,"Inspecionar folhas e caule, isolar a planta se necessario e remover folhas afetadas."
+PC-0040,samambaia,3,2,normal,baixa,22,nao,nao,nao,sim,nao,pouca_luz,medio,Mover a planta para um local com mais luz indireta e acompanhar o crescimento.
+PC-0041,costela_de_adao,6,5,normal,media,23,sim,nao,nao,sim,nao,necessita_adubo,baixo,Avaliar adubacao leve conforme o tipo da planta e manter acompanhamento semanal.
+PC-0042,suculenta,10,10,normal,media,25,nao,nao,nao,nao,nao,saudavel,baixo,Manter a rotina atual de cuidados e observar a planta nos proximos dias.
+PC-0043,cacto,18,14,seco,alta,29,sim,sim,nao,nao,nao,excesso_sol,medio,Mover a planta para um local com menos sol direto e evitar exposicao nas horas mais quentes.
+PC-0044,suculenta,1,10,encharcado,baixa,20,sim,nao,nao,sim,sim,excesso_agua,alto,Reduzir a frequencia de rega e verificar se o vaso possui boa drenagem.
+PC-0045,manjericao,4,2,encharcado,baixa,19,sim,nao,nao,sim,sim,pouca_luz,medio,Mover a planta para um local com mais luz indireta e acompanhar o crescimento.
+PC-0046,lirio_da_paz,1,3,seco,baixa,23,nao,nao,nao,nao,nao,saudavel,baixo,Manter a rotina atual de cuidados e observar a planta nos proximos dias.
+PC-0047,jiboia,2,4,normal,media,22,nao,nao,nao,nao,nao,saudavel,baixo,Manter a rotina atual de cuidados e observar a planta nos proximos dias.
+PC-0048,cacto,23,14,seco,media,29,nao,sim,nao,nao,nao,falta_agua,medio,Regar a planta e acompanhar a recuperacao das folhas nas proximas 24 horas.
+PC-0049,jiboia,2,4,normal,media,25,nao,nao,nao,nao,sim,saudavel,baixo,Manter a rotina atual de cuidados e observar a planta nos proximos dias.
+PC-0050,jiboia,6,4,normal,baixa,20,nao,sim,nao,sim,nao,pouca_luz,medio,Mover a planta para um local com mais luz indireta e acompanhar o crescimento.
+PC-0051,lirio_da_paz,7,3,seco,alta,37,nao,sim,sim,sim,nao,excesso_sol,medio,Mover a planta para um local com menos sol direto e evitar exposicao nas horas mais quentes.
+PC-0052,manjericao,11,2,seco,alta,31,nao,sim,nao,sim,nao,falta_agua,medio,Regar a planta e acompanhar a recuperacao das folhas nas proximas 24 horas.
+PC-0053,espada_de_sao_jorge,13,12,normal,media,23,sim,nao,nao,sim,sim,necessita_adubo,baixo,Avaliar adubacao leve conforme o tipo da planta e manter acompanhamento semanal.
+PC-0054,cacto,2,14,encharcado,media,23,sim,sim,nao,sim,nao,excesso_agua,alto,Reduzir a frequencia de rega e verificar se o vaso possui boa drenagem.
+PC-0055,manjericao,4,2,normal,alta,28,sim,nao,nao,sim,nao,necessita_adubo,baixo,Avaliar adubacao leve conforme o tipo da planta e manter acompanhamento semanal.
+PC-0056,jiboia,9,4,seco,alta,29,nao,sim,nao,sim,nao,excesso_sol,medio,Mover a planta para um local com menos sol direto e evitar exposicao nas horas mais quentes.
+PC-0057,espada_de_sao_jorge,13,12,normal,media,23,sim,nao,nao,sim,nao,necessita_adubo,baixo,Avaliar adubacao leve conforme o tipo da planta e manter acompanhamento semanal.
+PC-0058,orquidea,6,7,normal,baixa,23,sim,nao,nao,sim,nao,pouca_luz,medio,Mover a planta para um local com mais luz indireta e acompanhar o crescimento.
+PC-0059,jiboia,7,4,seco,alta,38,nao,nao,nao,nao,sim,excesso_sol,medio,Mover a planta para um local com menos sol direto e evitar exposicao nas horas mais quentes.
+PC-0060,manjericao,1,2,encharcado,media,18,sim,nao,nao,sim,sim,excesso_agua,alto,Reduzir a frequencia de rega e verificar se o vaso possui boa drenagem.
+PC-0061,costela_de_adao,9,5,seco,alta,31,sim,sim,nao,nao,nao,falta_agua,medio,Regar a planta e acompanhar a recuperacao das folhas nas proximas 24 horas.
+PC-0062,manjericao,8,2,seco,alta,34,sim,sim,nao,sim,nao,falta_agua,medio,Regar a planta e acompanhar a recuperacao das folhas nas proximas 24 horas.
+PC-0063,manjericao,0,2,encharcado,media,26,sim,nao,nao,nao,nao,excesso_agua,alto,Reduzir a frequencia de rega e verificar se o vaso possui boa drenagem.
+PC-0064,lirio_da_paz,1,3,normal,baixa,30,nao,sim,sim,nao,nao,possivel_praga,alto,"Inspecionar folhas e caule, isolar a planta se necessario e remover folhas afetadas."
+PC-0065,zamioculca,9,10,normal,media,24,nao,nao,nao,nao,nao,saudavel,baixo,Manter a rotina atual de cuidados e observar a planta nos proximos dias.
+PC-0066,lirio_da_paz,3,3,encharcado,baixa,20,sim,nao,sim,sim,sim,pouca_luz,medio,Mover a planta para um local com mais luz indireta e acompanhar o crescimento.
+PC-0067,jiboia,13,4,seco,alta,29,sim,sim,nao,sim,nao,falta_agua,medio,Regar a planta e acompanhar a recuperacao das folhas nas proximas 24 horas.
+PC-0068,samambaia,3,2,normal,media,26,nao,nao,nao,nao,nao,saudavel,baixo,Manter a rotina atual de cuidados e observar a planta nos proximos dias.
+PC-0069,samambaia,4,2,seco,baixa,22,nao,nao,sim,nao,nao,possivel_praga,alto,"Inspecionar folhas e caule, isolar a planta se necessario e remover folhas afetadas."
+PC-0070,jiboia,4,4,encharcado,baixa,23,sim,nao,sim,sim,sim,pouca_luz,medio,Mover a planta para um local com mais luz indireta e acompanhar o crescimento.
+PC-0071,zamioculca,11,10,normal,baixa,21,nao,nao,nao,nao,nao,saudavel,baixo,Manter a rotina atual de cuidados e observar a planta nos proximos dias.
+PC-0072,jiboia,11,4,seco,alta,29,sim,sim,nao,sim,nao,falta_agua,medio,Regar a planta e acompanhar a recuperacao das folhas nas proximas 24 horas.
+PC-0073,espada_de_sao_jorge,12,12,normal,media,22,sim,nao,nao,sim,sim,necessita_adubo,baixo,Avaliar adubacao leve conforme o tipo da planta e manter acompanhamento semanal.
+PC-0074,espada_de_sao_jorge,3,12,encharcado,media,23,sim,nao,nao,sim,sim,excesso_agua,alto,Reduzir a frequencia de rega e verificar se o vaso possui boa drenagem.
+PC-0075,manjericao,11,2,seco,alta,35,sim,sim,nao,nao,nao,falta_agua,medio,Regar a planta e acompanhar a recuperacao das folhas nas proximas 24 horas.
+PC-0076,cacto,15,14,normal,alta,36,sim,sim,nao,nao,nao,excesso_sol,medio,Mover a planta para um local com menos sol direto e evitar exposicao nas horas mais quentes.
+PC-0077,samambaia,4,2,normal,media,23,sim,nao,sim,nao,nao,possivel_praga,alto,"Inspecionar folhas e caule, isolar a planta se necessario e remover folhas afetadas."
+PC-0078,zamioculca,2,10,encharcado,media,18,sim,nao,nao,nao,sim,excesso_agua,alto,Reduzir a frequencia de rega e verificar se o vaso possui boa drenagem.
+PC-0079,manjericao,1,2,encharcado,media,26,sim,sim,nao,sim,nao,excesso_agua,alto,Reduzir a frequencia de rega e verificar se o vaso possui boa drenagem.
+PC-0080,manjericao,11,2,seco,alta,29,nao,sim,nao,sim,nao,falta_agua,medio,Regar a planta e acompanhar a recuperacao das folhas nas proximas 24 horas.
+PC-0081,suculenta,9,10,normal,alta,27,nao,nao,nao,nao,nao,saudavel,baixo,Manter a rotina atual de cuidados e observar a planta nos proximos dias.
+PC-0082,cacto,4,14,encharcado,baixa,23,sim,nao,nao,sim,sim,excesso_agua,alto,Reduzir a frequencia de rega e verificar se o vaso possui boa drenagem.
+PC-0083,lirio_da_paz,4,3,normal,baixa,19,sim,nao,nao,sim,nao,pouca_luz,medio,Mover a planta para um local com mais luz indireta e acompanhar o crescimento.
+PC-0084,orquidea,7,7,seco,media,27,nao,nao,sim,sim,nao,possivel_praga,alto,"Inspecionar folhas e caule, isolar a planta se necessario e remover folhas afetadas."
+PC-0085,cacto,14,14,normal,alta,21,sim,nao,sim,sim,nao,possivel_praga,alto,"Inspecionar folhas e caule, isolar a planta se necessario e remover folhas afetadas."
+PC-0086,cacto,18,14,normal,alta,35,nao,nao,nao,nao,nao,excesso_sol,medio,Mover a planta para um local com menos sol direto e evitar exposicao nas horas mais quentes.
+PC-0087,espada_de_sao_jorge,0,12,encharcado,media,20,sim,sim,nao,sim,sim,excesso_agua,alto,Reduzir a frequencia de rega e verificar se o vaso possui boa drenagem.
+PC-0088,suculenta,12,10,seco,alta,33,nao,sim,sim,nao,nao,excesso_sol,medio,Mover a planta para um local com menos sol direto e evitar exposicao nas horas mais quentes.
+PC-0089,samambaia,1,2,normal,media,20,sim,nao,nao,sim,nao,necessita_adubo,baixo,Avaliar adubacao leve conforme o tipo da planta e manter acompanhamento semanal.
+PC-0090,manjericao,7,2,seco,alta,37,sim,sim,sim,sim,nao,excesso_sol,medio,Mover a planta para um local com menos sol direto e evitar exposicao nas horas mais quentes.
+PC-0091,manjericao,6,2,normal,alta,31,nao,sim,sim,nao,nao,excesso_sol,medio,Mover a planta para um local com menos sol direto e evitar exposicao nas horas mais quentes.
+PC-0092,espada_de_sao_jorge,14,12,encharcado,baixa,23,nao,nao,sim,nao,nao,possivel_praga,alto,"Inspecionar folhas e caule, isolar a planta se necessario e remover folhas afetadas."
+PC-0093,cacto,16,14,normal,baixa,24,nao,nao,nao,sim,sim,pouca_luz,medio,Mover a planta para um local com mais luz indireta e acompanhar o crescimento.
+PC-0094,samambaia,2,2,normal,media,25,nao,nao,nao,nao,nao,saudavel,baixo,Manter a rotina atual de cuidados e observar a planta nos proximos dias.
+PC-0095,jiboia,6,4,normal,media,24,sim,nao,nao,sim,nao,necessita_adubo,baixo,Avaliar adubacao leve conforme o tipo da planta e manter acompanhamento semanal.
+PC-0096,costela_de_adao,7,5,seco,alta,30,nao,sim,nao,nao,sim,excesso_sol,medio,Mover a planta para um local com menos sol direto e evitar exposicao nas horas mais quentes.
+PC-0097,orquidea,12,7,seco,alta,29,nao,sim,nao,nao,nao,falta_agua,medio,Regar a planta e acompanhar a recuperacao das folhas nas proximas 24 horas.
+PC-0098,jiboia,5,4,normal,media,20,nao,nao,sim,sim,nao,possivel_praga,alto,"Inspecionar folhas e caule, isolar a planta se necessario e remover folhas afetadas."
+PC-0099,jiboia,5,4,normal,baixa,23,sim,nao,nao,sim,nao,pouca_luz,medio,Mover a planta para um local com mais luz indireta e acompanhar o crescimento.
+PC-0100,suculenta,10,10,normal,media,28,nao,nao,sim,sim,nao,possivel_praga,alto,"Inspecionar folhas e caule, isolar a planta se necessario e remover folhas afetadas."
+PC-0101,costela_de_adao,6,5,normal,baixa,22,sim,nao,nao,sim,nao,pouca_luz,medio,Mover a planta para um local com mais luz indireta e acompanhar o crescimento.
+PC-0102,manjericao,3,2,seco,alta,36,sim,sim,nao,nao,nao,excesso_sol,medio,Mover a planta para um local com menos sol direto e evitar exposicao nas horas mais quentes.
+PC-0103,cacto,14,14,encharcado,alta,30,sim,nao,sim,sim,sim,possivel_praga,alto,"Inspecionar folhas e caule, isolar a planta se necessario e remover folhas afetadas."
+PC-0104,costela_de_adao,9,5,seco,alta,34,sim,nao,nao,nao,nao,excesso_sol,medio,Mover a planta para um local com menos sol direto e evitar exposicao nas horas mais quentes.
+PC-0105,orquidea,13,7,seco,media,33,sim,sim,nao,sim,sim,falta_agua,medio,Regar a planta e acompanhar a recuperacao das folhas nas proximas 24 horas.
+PC-0106,cacto,16,14,encharcado,baixa,20,sim,nao,nao,sim,nao,pouca_luz,medio,Mover a planta para um local com mais luz indireta e acompanhar o crescimento.
+PC-0107,costela_de_adao,10,5,seco,alta,27,nao,sim,nao,nao,nao,falta_agua,medio,Regar a planta e acompanhar a recuperacao das folhas nas proximas 24 horas.
+PC-0108,jiboia,3,4,encharcado,baixa,31,nao,nao,sim,sim,nao,possivel_praga,alto,"Inspecionar folhas e caule, isolar a planta se necessario e remover folhas afetadas."
+PC-0109,suculenta,16,10,seco,media,33,nao,sim,nao,nao,nao,falta_agua,medio,Regar a planta e acompanhar a recuperacao das folhas nas proximas 24 horas.
+PC-0110,samambaia,2,2,normal,media,23,sim,nao,nao,sim,sim,necessita_adubo,baixo,Avaliar adubacao leve conforme o tipo da planta e manter acompanhamento semanal.
+PC-0111,zamioculca,8,10,normal,baixa,24,nao,nao,nao,nao,nao,saudavel,baixo,Manter a rotina atual de cuidados e observar a planta nos proximos dias.
+PC-0112,samambaia,1,2,normal,baixa,21,sim,nao,sim,sim,nao,pouca_luz,medio,Mover a planta para um local com mais luz indireta e acompanhar o crescimento.
+PC-0113,lirio_da_paz,7,3,seco,alta,32,sim,sim,sim,sim,nao,falta_agua,medio,Regar a planta e acompanhar a recuperacao das folhas nas proximas 24 horas.
+PC-0114,samambaia,2,2,normal,media,22,sim,nao,nao,sim,nao,necessita_adubo,baixo,Avaliar adubacao leve conforme o tipo da planta e manter acompanhamento semanal.
+PC-0115,suculenta,17,10,seco,media,29,nao,sim,nao,sim,nao,falta_agua,medio,Regar a planta e acompanhar a recuperacao das folhas nas proximas 24 horas.
+PC-0116,lirio_da_paz,5,3,normal,baixa,18,sim,nao,nao,sim,nao,pouca_luz,medio,Mover a planta para um local com mais luz indireta e acompanhar o crescimento.
+PC-0117,orquidea,7,7,normal,baixa,20,nao,nao,nao,sim,nao,pouca_luz,medio,Mover a planta para um local com mais luz indireta e acompanhar o crescimento.
+PC-0118,suculenta,9,10,normal,media,23,sim,nao,nao,sim,nao,necessita_adubo,baixo,Avaliar adubacao leve conforme o tipo da planta e manter acompanhamento semanal.
+PC-0119,jiboia,3,4,encharcado,media,19,sim,nao,nao,sim,sim,excesso_agua,alto,Reduzir a frequencia de rega e verificar se o vaso possui boa drenagem.
+PC-0120,suculenta,14,10,seco,alta,35,sim,sim,sim,sim,nao,excesso_sol,medio,Mover a planta para um local com menos sol direto e evitar exposicao nas horas mais quentes.
+PC-0121,zamioculca,9,10,normal,baixa,26,sim,nao,nao,sim,sim,necessita_adubo,baixo,Avaliar adubacao leve conforme o tipo da planta e manter acompanhamento semanal.
+PC-0122,samambaia,2,2,encharcado,alta,26,sim,nao,sim,sim,nao,possivel_praga,alto,"Inspecionar folhas e caule, isolar a planta se necessario e remover folhas afetadas."
+PC-0123,jiboia,4,4,seco,alta,32,sim,nao,nao,sim,nao,excesso_sol,medio,Mover a planta para um local com menos sol direto e evitar exposicao nas horas mais quentes.
+PC-0124,zamioculca,8,10,normal,baixa,26,nao,nao,nao,nao,nao,saudavel,baixo,Manter a rotina atual de cuidados e observar a planta nos proximos dias.
+PC-0125,espada_de_sao_jorge,14,12,normal,media,29,sim,nao,nao,sim,sim,necessita_adubo,baixo,Avaliar adubacao leve conforme o tipo da planta e manter acompanhamento semanal.
+PC-0126,cacto,15,14,normal,alta,26,nao,nao,nao,nao,nao,saudavel,baixo,Manter a rotina atual de cuidados e observar a planta nos proximos dias.
+PC-0127,orquidea,5,7,normal,baixa,23,nao,nao,sim,sim,nao,possivel_praga,alto,"Inspecionar folhas e caule, isolar a planta se necessario e remover folhas afetadas."
+PC-0128,orquidea,6,7,seco,baixa,23,sim,nao,sim,sim,nao,possivel_praga,alto,"Inspecionar folhas e caule, isolar a planta se necessario e remover folhas afetadas."
+PC-0129,manjericao,0,2,seco,media,21,sim,sim,sim,sim,sim,possivel_praga,alto,"Inspecionar folhas e caule, isolar a planta se necessario e remover folhas afetadas."
+PC-0130,manjericao,4,2,normal,baixa,19,sim,nao,nao,sim,nao,pouca_luz,medio,Mover a planta para um local com mais luz indireta e acompanhar o crescimento.
+PC-0131,orquidea,12,7,seco,alta,31,sim,sim,sim,sim,nao,excesso_sol,medio,Mover a planta para um local com menos sol direto e evitar exposicao nas horas mais quentes.
+PC-0132,lirio_da_paz,0,3,encharcado,media,26,sim,nao,nao,sim,nao,excesso_agua,alto,Reduzir a frequencia de rega e verificar se o vaso possui boa drenagem.
+PC-0133,jiboia,8,4,seco,alta,34,sim,nao,sim,nao,nao,excesso_sol,medio,Mover a planta para um local com menos sol direto e evitar exposicao nas horas mais quentes.
+PC-0134,orquidea,2,7,encharcado,baixa,24,sim,nao,sim,sim,sim,excesso_agua,alto,Reduzir a frequencia de rega e verificar se o vaso possui boa drenagem.
+PC-0135,lirio_da_paz,5,3,normal,baixa,24,nao,nao,sim,sim,nao,pouca_luz,medio,Mover a planta para um local com mais luz indireta e acompanhar o crescimento.
+PC-0136,lirio_da_paz,2,3,seco,baixa,23,nao,nao,nao,nao,nao,saudavel,baixo,Manter a rotina atual de cuidados e observar a planta nos proximos dias.
+PC-0137,orquidea,3,7,encharcado,baixa,24,sim,sim,nao,nao,nao,excesso_agua,alto,Reduzir a frequencia de rega e verificar se o vaso possui boa drenagem.
+PC-0138,suculenta,9,10,normal,media,24,sim,sim,sim,sim,nao,possivel_praga,alto,"Inspecionar folhas e caule, isolar a planta se necessario e remover folhas afetadas."
+PC-0139,suculenta,10,10,normal,alta,35,nao,sim,nao,nao,nao,excesso_sol,medio,Mover a planta para um local com menos sol direto e evitar exposicao nas horas mais quentes.
+PC-0140,manjericao,1,2,normal,media,23,nao,nao,nao,nao,nao,saudavel,baixo,Manter a rotina atual de cuidados e observar a planta nos proximos dias.
+PC-0141,espada_de_sao_jorge,14,12,seco,alta,36,sim,nao,nao,nao,nao,excesso_sol,medio,Mover a planta para um local com menos sol direto e evitar exposicao nas horas mais quentes.
+PC-0142,jiboia,10,4,seco,alta,28,nao,sim,nao,sim,nao,falta_agua,medio,Regar a planta e acompanhar a recuperacao das folhas nas proximas 24 horas.
+PC-0143,suculenta,11,10,normal,media,23,sim,nao,nao,sim,sim,necessita_adubo,baixo,Avaliar adubacao leve conforme o tipo da planta e manter acompanhamento semanal.
+PC-0144,cacto,18,14,seco,alta,33,nao,sim,nao,nao,nao,excesso_sol,medio,Mover a planta para um local com menos sol direto e evitar exposicao nas horas mais quentes.
+PC-0145,cacto,14,14,normal,baixa,22,nao,sim,nao,sim,nao,pouca_luz,medio,Mover a planta para um local com mais luz indireta e acompanhar o crescimento.
+PC-0146,cacto,14,14,normal,baixa,25,nao,nao,nao,sim,nao,pouca_luz,medio,Mover a planta para um local com mais luz indireta e acompanhar o crescimento.
+PC-0147,espada_de_sao_jorge,2,12,encharcado,baixa,19,sim,nao,nao,sim,sim,excesso_agua,alto,Reduzir a frequencia de rega e verificar se o vaso possui boa drenagem.
+PC-0148,jiboia,8,4,seco,alta,34,sim,sim,nao,nao,nao,falta_agua,medio,Regar a planta e acompanhar a recuperacao das folhas nas proximas 24 horas.
+PC-0149,samambaia,7,2,seco,alta,35,nao,sim,nao,sim,nao,falta_agua,medio,Regar a planta e acompanhar a recuperacao das folhas nas proximas 24 horas.
+PC-0150,cacto,17,14,seco,alta,34,sim,nao,sim,nao,nao,excesso_sol,medio,Mover a planta para um local com menos sol direto e evitar exposicao nas horas mais quentes.
+PC-0151,espada_de_sao_jorge,12,12,normal,media,26,sim,nao,nao,sim,nao,necessita_adubo,baixo,Avaliar adubacao leve conforme o tipo da planta e manter acompanhamento semanal.
+PC-0152,costela_de_adao,5,5,normal,media,22,nao,nao,sim,nao,nao,saudavel,baixo,Manter a rotina atual de cuidados e observar a planta nos proximos dias.
+PC-0153,cacto,15,14,normal,alta,23,nao,nao,nao,nao,nao,saudavel,baixo,Manter a rotina atual de cuidados e observar a planta nos proximos dias.
+PC-0154,manjericao,2,2,encharcado,media,23,sim,nao,nao,sim,sim,excesso_agua,alto,Reduzir a frequencia de rega e verificar se o vaso possui boa drenagem.
+PC-0155,manjericao,4,2,seco,alta,38,nao,sim,nao,nao,nao,excesso_sol,medio,Mover a planta para um local com menos sol direto e evitar exposicao nas horas mais quentes.
+PC-0156,orquidea,0,7,encharcado,media,25,sim,sim,sim,sim,sim,excesso_agua,alto,Reduzir a frequencia de rega e verificar se o vaso possui boa drenagem.
+PC-0157,suculenta,10,10,normal,alta,27,nao,nao,nao,nao,nao,saudavel,baixo,Manter a rotina atual de cuidados e observar a planta nos proximos dias.
+PC-0158,suculenta,2,10,encharcado,baixa,25,sim,nao,nao,sim,nao,excesso_agua,alto,Reduzir a frequencia de rega e verificar se o vaso possui boa drenagem.
+PC-0159,suculenta,11,10,normal,baixa,23,sim,nao,nao,sim,nao,pouca_luz,medio,Mover a planta para um local com mais luz indireta e acompanhar o crescimento.
+PC-0160,espada_de_sao_jorge,11,12,encharcado,baixa,23,sim,nao,nao,sim,nao,pouca_luz,medio,Mover a planta para um local com mais luz indireta e acompanhar o crescimento.
+PC-0161,manjericao,10,2,seco,alta,26,nao,sim,nao,nao,nao,falta_agua,medio,Regar a planta e acompanhar a recuperacao das folhas nas proximas 24 horas.
+PC-0162,costela_de_adao,4,5,normal,media,25,nao,nao,nao,sim,nao,saudavel,baixo,Manter a rotina atual de cuidados e observar a planta nos proximos dias.
+PC-0163,zamioculca,12,10,normal,baixa,23,sim,nao,nao,sim,nao,pouca_luz,medio,Mover a planta para um local com mais luz indireta e acompanhar o crescimento.
+PC-0164,costela_de_adao,8,5,seco,alta,32,nao,sim,nao,nao,nao,excesso_sol,medio,Mover a planta para um local com menos sol direto e evitar exposicao nas horas mais quentes.
+PC-0165,orquidea,9,7,seco,alta,26,sim,sim,sim,nao,nao,possivel_praga,alto,"Inspecionar folhas e caule, isolar a planta se necessario e remover folhas afetadas."
+PC-0166,orquidea,9,7,normal,baixa,20,sim,nao,sim,nao,nao,possivel_praga,alto,"Inspecionar folhas e caule, isolar a planta se necessario e remover folhas afetadas."
+PC-0167,jiboia,5,4,normal,media,27,nao,nao,nao,nao,nao,saudavel,baixo,Manter a rotina atual de cuidados e observar a planta nos proximos dias.
+PC-0168,espada_de_sao_jorge,21,12,seco,alta,33,sim,sim,sim,sim,nao,falta_agua,medio,Regar a planta e acompanhar a recuperacao das folhas nas proximas 24 horas.
+PC-0169,jiboia,6,4,normal,media,27,sim,nao,sim,nao,nao,possivel_praga,alto,"Inspecionar folhas e caule, isolar a planta se necessario e remover folhas afetadas."
+PC-0170,lirio_da_paz,1,3,normal,alta,24,sim,nao,sim,sim,nao,possivel_praga,alto,"Inspecionar folhas e caule, isolar a planta se necessario e remover folhas afetadas."
+PC-0171,jiboia,4,4,normal,media,28,sim,nao,nao,sim,nao,necessita_adubo,baixo,Avaliar adubacao leve conforme o tipo da planta e manter acompanhamento semanal.
+PC-0172,orquidea,8,7,normal,baixa,31,nao,nao,sim,nao,nao,possivel_praga,alto,"Inspecionar folhas e caule, isolar a planta se necessario e remover folhas afetadas."
+PC-0173,samambaia,1,2,normal,media,28,nao,nao,nao,nao,nao,saudavel,baixo,Manter a rotina atual de cuidados e observar a planta nos proximos dias.
+PC-0174,zamioculca,11,10,normal,alta,26,sim,nao,sim,sim,nao,possivel_praga,alto,"Inspecionar folhas e caule, isolar a planta se necessario e remover folhas afetadas."
+PC-0175,zamioculca,8,10,seco,media,32,sim,sim,sim,sim,nao,possivel_praga,alto,"Inspecionar folhas e caule, isolar a planta se necessario e remover folhas afetadas."
+PC-0176,costela_de_adao,4,5,normal,media,25,nao,nao,nao,nao,nao,saudavel,baixo,Manter a rotina atual de cuidados e observar a planta nos proximos dias.
+PC-0177,lirio_da_paz,0,3,encharcado,baixa,24,sim,nao,nao,nao,nao,excesso_agua,alto,Reduzir a frequencia de rega e verificar se o vaso possui boa drenagem.
+PC-0178,lirio_da_paz,2,3,normal,baixa,25,nao,nao,nao,nao,nao,saudavel,baixo,Manter a rotina atual de cuidados e observar a planta nos proximos dias.
+PC-0179,espada_de_sao_jorge,14,12,normal,baixa,25,sim,nao,sim,sim,nao,possivel_praga,alto,"Inspecionar folhas e caule, isolar a planta se necessario e remover folhas afetadas."
+PC-0180,espada_de_sao_jorge,11,12,normal,baixa,25,sim,nao,nao,sim,sim,pouca_luz,medio,Mover a planta para um local com mais luz indireta e acompanhar o crescimento.
+PC-0181,zamioculca,10,10,normal,baixa,19,sim,nao,nao,sim,nao,pouca_luz,medio,Mover a planta para um local com mais luz indireta e acompanhar o crescimento.
+PC-0182,cacto,13,14,encharcado,baixa,18,sim,nao,nao,sim,nao,pouca_luz,medio,Mover a planta para um local com mais luz indireta e acompanhar o crescimento.
+PC-0183,zamioculca,2,10,encharcado,baixa,24,sim,nao,sim,sim,nao,excesso_agua,alto,Reduzir a frequencia de rega e verificar se o vaso possui boa drenagem.
+PC-0184,manjericao,2,2,seco,media,22,nao,nao,nao,nao,nao,saudavel,baixo,Manter a rotina atual de cuidados e observar a planta nos proximos dias.
+PC-0185,samambaia,6,2,seco,alta,29,nao,sim,nao,sim,nao,excesso_sol,medio,Mover a planta para um local com menos sol direto e evitar exposicao nas horas mais quentes.
+PC-0186,lirio_da_paz,4,3,encharcado,baixa,20,sim,nao,nao,sim,nao,pouca_luz,medio,Mover a planta para um local com mais luz indireta e acompanhar o crescimento.
+PC-0187,jiboia,6,4,seco,alta,29,nao,sim,sim,nao,nao,excesso_sol,medio,Mover a planta para um local com menos sol direto e evitar exposicao nas horas mais quentes.
+PC-0188,cacto,15,14,encharcado,alta,30,sim,nao,sim,sim,nao,possivel_praga,alto,"Inspecionar folhas e caule, isolar a planta se necessario e remover folhas afetadas."
+PC-0189,espada_de_sao_jorge,0,12,encharcado,baixa,24,sim,nao,nao,sim,sim,excesso_agua,alto,Reduzir a frequencia de rega e verificar se o vaso possui boa drenagem.
+PC-0190,zamioculca,2,10,encharcado,baixa,20,sim,nao,nao,nao,nao,excesso_agua,alto,Reduzir a frequencia de rega e verificar se o vaso possui boa drenagem.
+PC-0191,cacto,18,14,normal,alta,32,sim,sim,nao,sim,sim,excesso_sol,medio,Mover a planta para um local com menos sol direto e evitar exposicao nas horas mais quentes.
+PC-0192,suculenta,0,10,encharcado,baixa,23,sim,nao,nao,sim,sim,excesso_agua,alto,Reduzir a frequencia de rega e verificar se o vaso possui boa drenagem.
+PC-0193,orquidea,5,7,normal,media,23,sim,nao,sim,nao,nao,possivel_praga,alto,"Inspecionar folhas e caule, isolar a planta se necessario e remover folhas afetadas."
+PC-0194,samambaia,4,2,normal,media,20,sim,nao,nao,sim,nao,necessita_adubo,baixo,Avaliar adubacao leve conforme o tipo da planta e manter acompanhamento semanal.
+PC-0195,costela_de_adao,3,5,encharcado,media,26,sim,nao,nao,sim,sim,excesso_agua,alto,Reduzir a frequencia de rega e verificar se o vaso possui boa drenagem.
+PC-0196,samambaia,1,2,normal,media,23,nao,nao,nao,nao,nao,saudavel,baixo,Manter a rotina atual de cuidados e observar a planta nos proximos dias.
+PC-0197,suculenta,12,10,encharcado,baixa,27,sim,nao,sim,nao,nao,possivel_praga,alto,"Inspecionar folhas e caule, isolar a planta se necessario e remover folhas afetadas."
+PC-0198,cacto,16,14,seco,alta,35,sim,nao,nao,nao,sim,excesso_sol,medio,Mover a planta para um local com menos sol direto e evitar exposicao nas horas mais quentes.
+PC-0199,espada_de_sao_jorge,11,12,normal,media,26,nao,nao,nao,nao,nao,saudavel,baixo,Manter a rotina atual de cuidados e observar a planta nos proximos dias.
+PC-0200,zamioculca,19,10,seco,alta,32,nao,sim,nao,sim,nao,falta_agua,medio,Regar a planta e acompanhar a recuperacao das folhas nas proximas 24 horas.
+PC-0201,orquidea,6,7,seco,media,22,sim,nao,sim,nao,nao,possivel_praga,alto,"Inspecionar folhas e caule, isolar a planta se necessario e remover folhas afetadas."
+PC-0202,costela_de_adao,3,5,normal,media,21,nao,nao,nao,nao,nao,saudavel,baixo,Manter a rotina atual de cuidados e observar a planta nos proximos dias.
+PC-0203,suculenta,12,10,normal,baixa,22,sim,sim,nao,sim,nao,pouca_luz,medio,Mover a planta para um local com mais luz indireta e acompanhar o crescimento.
+PC-0204,espada_de_sao_jorge,17,12,seco,alta,32,sim,sim,sim,sim,nao,falta_agua,medio,Regar a planta e acompanhar a recuperacao das folhas nas proximas 24 horas.
+PC-0205,cacto,19,14,seco,alta,32,nao,sim,nao,nao,nao,falta_agua,medio,Regar a planta e acompanhar a recuperacao das folhas nas proximas 24 horas.
+PC-0206,suculenta,17,10,seco,media,25,nao,sim,nao,sim,sim,falta_agua,medio,Regar a planta e acompanhar a recuperacao das folhas nas proximas 24 horas.
+PC-0207,orquidea,6,7,normal,media,22,nao,nao,nao,nao,nao,saudavel,baixo,Manter a rotina atual de cuidados e observar a planta nos proximos dias.
+PC-0208,cacto,0,14,encharcado,baixa,19,sim,nao,nao,sim,sim,excesso_agua,alto,Reduzir a frequencia de rega e verificar se o vaso possui boa drenagem.
+PC-0209,cacto,20,14,seco,media,27,nao,sim,nao,sim,nao,falta_agua,medio,Regar a planta e acompanhar a recuperacao das folhas nas proximas 24 horas.
+PC-0210,cacto,14,14,normal,media,25,sim,nao,sim,nao,nao,possivel_praga,alto,"Inspecionar folhas e caule, isolar a planta se necessario e remover folhas afetadas."
+PC-0211,samambaia,3,2,seco,alta,23,sim,nao,sim,sim,nao,possivel_praga,alto,"Inspecionar folhas e caule, isolar a planta se necessario e remover folhas afetadas."
+PC-0212,zamioculca,11,10,encharcado,baixa,18,nao,sim,sim,sim,nao,pouca_luz,medio,Mover a planta para um local com mais luz indireta e acompanhar o crescimento.
+PC-0213,cacto,14,14,normal,alta,27,sim,nao,nao,sim,sim,necessita_adubo,baixo,Avaliar adubacao leve conforme o tipo da planta e manter acompanhamento semanal.
+PC-0214,samambaia,5,2,seco,alta,29,sim,sim,nao,nao,nao,excesso_sol,medio,Mover a planta para um local com menos sol direto e evitar exposicao nas horas mais quentes.
+PC-0215,manjericao,0,2,normal,alta,22,nao,nao,nao,nao,nao,saudavel,baixo,Manter a rotina atual de cuidados e observar a planta nos proximos dias.
+PC-0216,suculenta,11,10,normal,baixa,25,nao,nao,sim,nao,nao,possivel_praga,alto,"Inspecionar folhas e caule, isolar a planta se necessario e remover folhas afetadas."
+PC-0217,orquidea,6,7,normal,media,28,nao,nao,nao,nao,nao,saudavel,baixo,Manter a rotina atual de cuidados e observar a planta nos proximos dias.
+PC-0218,orquidea,6,7,seco,alta,26,nao,nao,sim,sim,nao,possivel_praga,alto,"Inspecionar folhas e caule, isolar a planta se necessario e remover folhas afetadas."
+PC-0219,orquidea,9,7,normal,media,22,sim,nao,nao,sim,nao,necessita_adubo,baixo,Avaliar adubacao leve conforme o tipo da planta e manter acompanhamento semanal.
+PC-0220,lirio_da_paz,7,3,seco,alta,29,nao,sim,nao,sim,nao,falta_agua,medio,Regar a planta e acompanhar a recuperacao das folhas nas proximas 24 horas.
+PC-0221,zamioculca,10,10,normal,baixa,24,sim,nao,nao,sim,nao,necessita_adubo,baixo,Avaliar adubacao leve conforme o tipo da planta e manter acompanhamento semanal.
+PC-0222,samambaia,6,2,seco,alta,35,nao,nao,nao,sim,nao,excesso_sol,medio,Mover a planta para um local com menos sol direto e evitar exposicao nas horas mais quentes.
+PC-0223,orquidea,11,7,seco,alta,25,sim,sim,nao,sim,sim,falta_agua,medio,Regar a planta e acompanhar a recuperacao das folhas nas proximas 24 horas.
+PC-0224,cacto,15,14,normal,media,23,nao,nao,nao,nao,nao,saudavel,baixo,Manter a rotina atual de cuidados e observar a planta nos proximos dias.
+PC-0225,espada_de_sao_jorge,4,12,encharcado,media,26,sim,nao,nao,sim,nao,excesso_agua,alto,Reduzir a frequencia de rega e verificar se o vaso possui boa drenagem.
+PC-0226,manjericao,3,2,normal,alta,21,nao,nao,nao,nao,sim,saudavel,baixo,Manter a rotina atual de cuidados e observar a planta nos proximos dias.
+PC-0227,suculenta,10,10,encharcado,baixa,19,nao,nao,nao,sim,nao,pouca_luz,medio,Mover a planta para um local com mais luz indireta e acompanhar o crescimento.
+PC-0228,costela_de_adao,7,5,normal,baixa,20,nao,nao,nao,sim,nao,pouca_luz,medio,Mover a planta para um local com mais luz indireta e acompanhar o crescimento.
+PC-0229,suculenta,10,10,normal,media,24,sim,nao,nao,sim,sim,necessita_adubo,baixo,Avaliar adubacao leve conforme o tipo da planta e manter acompanhamento semanal.
+PC-0230,espada_de_sao_jorge,14,12,normal,baixa,22,nao,nao,sim,sim,nao,pouca_luz,medio,Mover a planta para um local com mais luz indireta e acompanhar o crescimento.
+PC-0231,suculenta,15,10,normal,alta,34,nao,sim,nao,nao,nao,excesso_sol,medio,Mover a planta para um local com menos sol direto e evitar exposicao nas horas mais quentes.
+PC-0232,orquidea,12,7,seco,alta,29,nao,sim,nao,sim,nao,falta_agua,medio,Regar a planta e acompanhar a recuperacao das folhas nas proximas 24 horas.
+PC-0233,zamioculca,9,10,seco,baixa,23,nao,nao,sim,sim,nao,possivel_praga,alto,"Inspecionar folhas e caule, isolar a planta se necessario e remover folhas afetadas."
+PC-0234,espada_de_sao_jorge,11,12,normal,media,29,sim,nao,nao,sim,nao,necessita_adubo,baixo,Avaliar adubacao leve conforme o tipo da planta e manter acompanhamento semanal.
+PC-0235,samambaia,1,2,normal,media,22,nao,nao,nao,nao,nao,saudavel,baixo,Manter a rotina atual de cuidados e observar a planta nos proximos dias.
+PC-0236,jiboia,6,4,normal,baixa,21,sim,sim,nao,sim,nao,pouca_luz,medio,Mover a planta para um local com mais luz indireta e acompanhar o crescimento.
+PC-0237,lirio_da_paz,4,3,normal,alta,34,sim,sim,sim,sim,nao,excesso_sol,medio,Mover a planta para um local com menos sol direto e evitar exposicao nas horas mais quentes.
+PC-0238,zamioculca,11,10,seco,alta,34,sim,nao,sim,sim,nao,excesso_sol,medio,Mover a planta para um local com menos sol direto e evitar exposicao nas horas mais quentes.
+PC-0239,lirio_da_paz,1,3,encharcado,media,25,sim,nao,nao,sim,sim,excesso_agua,alto,Reduzir a frequencia de rega e verificar se o vaso possui boa drenagem.
+PC-0240,samambaia,2,2,normal,baixa,22,nao,nao,nao,sim,nao,pouca_luz,medio,Mover a planta para um local com mais luz indireta e acompanhar o crescimento.
+PC-0241,lirio_da_paz,5,3,normal,baixa,22,sim,nao,nao,sim,nao,pouca_luz,medio,Mover a planta para um local com mais luz indireta e acompanhar o crescimento.
+PC-0242,cacto,13,14,normal,alta,23,sim,sim,nao,sim,nao,necessita_adubo,baixo,Avaliar adubacao leve conforme o tipo da planta e manter acompanhamento semanal.
+PC-0243,cacto,14,14,normal,alta,20,sim,nao,nao,sim,nao,necessita_adubo,baixo,Avaliar adubacao leve conforme o tipo da planta e manter acompanhamento semanal.
+PC-0244,suculenta,13,10,seco,alta,34,nao,sim,sim,sim,sim,falta_agua,medio,Regar a planta e acompanhar a recuperacao das folhas nas proximas 24 horas.
+PC-0245,manjericao,2,2,normal,alta,26,nao,nao,nao,nao,nao,saudavel,baixo,Manter a rotina atual de cuidados e observar a planta nos proximos dias.
+PC-0246,costela_de_adao,5,5,normal,media,28,sim,nao,sim,sim,nao,necessita_adubo,baixo,Avaliar adubacao leve conforme o tipo da planta e manter acompanhamento semanal.
+PC-0247,orquidea,7,7,encharcado,baixa,20,nao,nao,nao,sim,sim,pouca_luz,medio,Mover a planta para um local com mais luz indireta e acompanhar o crescimento.
+PC-0248,lirio_da_paz,8,3,normal,alta,31,sim,nao,nao,nao,nao,excesso_sol,medio,Mover a planta para um local com menos sol direto e evitar exposicao nas horas mais quentes.
+PC-0249,zamioculca,14,10,seco,media,25,nao,sim,nao,nao,nao,falta_agua,medio,Regar a planta e acompanhar a recuperacao das folhas nas proximas 24 horas.
+PC-0250,costela_de_adao,5,5,normal,media,26,sim,sim,nao,sim,nao,necessita_adubo,baixo,Avaliar adubacao leve conforme o tipo da planta e manter acompanhamento semanal.
+PC-0251,zamioculca,9,10,normal,baixa,27,nao,nao,nao,nao,nao,saudavel,baixo,Manter a rotina atual de cuidados e observar a planta nos proximos dias.
+PC-0252,lirio_da_paz,5,3,seco,alta,37,sim,sim,nao,nao,nao,excesso_sol,medio,Mover a planta para um local com menos sol direto e evitar exposicao nas horas mais quentes.
+PC-0253,zamioculca,9,10,normal,baixa,23,sim,nao,nao,sim,nao,pouca_luz,medio,Mover a planta para um local com mais luz indireta e acompanhar o crescimento.
+PC-0254,manjericao,3,2,normal,baixa,22,sim,sim,nao,sim,nao,pouca_luz,medio,Mover a planta para um local com mais luz indireta e acompanhar o crescimento.
+PC-0255,lirio_da_paz,7,3,seco,alta,32,nao,sim,nao,sim,nao,falta_agua,medio,Regar a planta e acompanhar a recuperacao das folhas nas proximas 24 horas.
+PC-0256,jiboia,5,4,normal,alta,36,sim,sim,nao,sim,nao,excesso_sol,medio,Mover a planta para um local com menos sol direto e evitar exposicao nas horas mais quentes.
+PC-0257,suculenta,12,10,normal,alta,23,sim,nao,nao,sim,nao,necessita_adubo,baixo,Avaliar adubacao leve conforme o tipo da planta e manter acompanhamento semanal.
+PC-0258,suculenta,12,10,normal,alta,28,sim,nao,nao,sim,nao,necessita_adubo,baixo,Avaliar adubacao leve conforme o tipo da planta e manter acompanhamento semanal.
+PC-0259,orquidea,6,7,normal,media,27,nao,nao,sim,sim,sim,possivel_praga,alto,"Inspecionar folhas e caule, isolar a planta se necessario e remover folhas afetadas."
+PC-0260,jiboia,4,4,normal,alta,29,nao,sim,nao,sim,nao,excesso_sol,medio,Mover a planta para um local com menos sol direto e evitar exposicao nas horas mais quentes.
+PC-0261,costela_de_adao,9,5,seco,alta,34,nao,sim,nao,nao,nao,falta_agua,medio,Regar a planta e acompanhar a recuperacao das folhas nas proximas 24 horas.
+PC-0262,costela_de_adao,12,5,seco,media,27,nao,sim,nao,sim,nao,falta_agua,medio,Regar a planta e acompanhar a recuperacao das folhas nas proximas 24 horas.
+PC-0263,zamioculca,10,10,normal,baixa,23,sim,nao,nao,sim,nao,necessita_adubo,baixo,Avaliar adubacao leve conforme o tipo da planta e manter acompanhamento semanal.
+PC-0264,costela_de_adao,6,5,normal,baixa,25,sim,nao,nao,sim,nao,pouca_luz,medio,Mover a planta para um local com mais luz indireta e acompanhar o crescimento.
+PC-0265,zamioculca,10,10,encharcado,baixa,24,sim,sim,nao,sim,nao,pouca_luz,medio,Mover a planta para um local com mais luz indireta e acompanhar o crescimento.
+PC-0266,costela_de_adao,13,5,seco,alta,28,sim,sim,nao,nao,nao,falta_agua,medio,Regar a planta e acompanhar a recuperacao das folhas nas proximas 24 horas.
+PC-0267,orquidea,11,7,normal,alta,32,nao,nao,nao,nao,nao,excesso_sol,medio,Mover a planta para um local com menos sol direto e evitar exposicao nas horas mais quentes.
+PC-0268,samambaia,7,2,seco,alta,36,sim,nao,sim,nao,nao,excesso_sol,medio,Mover a planta para um local com menos sol direto e evitar exposicao nas horas mais quentes.
+PC-0269,costela_de_adao,4,5,normal,media,21,nao,nao,nao,nao,nao,saudavel,baixo,Manter a rotina atual de cuidados e observar a planta nos proximos dias.
+PC-0270,suculenta,10,10,seco,alta,30,sim,sim,sim,nao,nao,excesso_sol,medio,Mover a planta para um local com menos sol direto e evitar exposicao nas horas mais quentes.
+PC-0271,manjericao,1,2,normal,alta,23,sim,nao,nao,sim,nao,necessita_adubo,baixo,Avaliar adubacao leve conforme o tipo da planta e manter acompanhamento semanal.
+PC-0272,suculenta,15,10,seco,alta,30,nao,sim,nao,nao,nao,falta_agua,medio,Regar a planta e acompanhar a recuperacao das folhas nas proximas 24 horas.
+PC-0273,cacto,15,14,normal,alta,23,sim,nao,nao,sim,nao,necessita_adubo,baixo,Avaliar adubacao leve conforme o tipo da planta e manter acompanhamento semanal.
+PC-0274,orquidea,13,7,seco,media,29,nao,sim,nao,sim,nao,falta_agua,medio,Regar a planta e acompanhar a recuperacao das folhas nas proximas 24 horas.
+PC-0275,jiboia,5,4,normal,media,25,nao,nao,nao,nao,nao,saudavel,baixo,Manter a rotina atual de cuidados e observar a planta nos proximos dias.
+PC-0276,samambaia,3,2,normal,media,28,nao,nao,nao,nao,nao,saudavel,baixo,Manter a rotina atual de cuidados e observar a planta nos proximos dias.
+PC-0277,suculenta,10,10,normal,baixa,21,nao,nao,nao,sim,nao,pouca_luz,medio,Mover a planta para um local com mais luz indireta e acompanhar o crescimento.
+PC-0278,cacto,15,14,normal,alta,27,sim,sim,nao,sim,nao,necessita_adubo,baixo,Avaliar adubacao leve conforme o tipo da planta e manter acompanhamento semanal.
+PC-0279,espada_de_sao_jorge,13,12,encharcado,baixa,23,sim,nao,nao,sim,sim,pouca_luz,medio,Mover a planta para um local com mais luz indireta e acompanhar o crescimento.
+PC-0280,zamioculca,17,10,seco,alta,26,nao,sim,nao,sim,nao,falta_agua,medio,Regar a planta e acompanhar a recuperacao das folhas nas proximas 24 horas.
+PC-0281,espada_de_sao_jorge,3,12,encharcado,media,23,sim,sim,nao,sim,nao,excesso_agua,alto,Reduzir a frequencia de rega e verificar se o vaso possui boa drenagem.
+PC-0282,suculenta,10,10,normal,baixa,21,sim,nao,nao,sim,nao,pouca_luz,medio,Mover a planta para um local com mais luz indireta e acompanhar o crescimento.
+PC-0283,samambaia,2,2,normal,media,22,nao,nao,nao,nao,sim,saudavel,baixo,Manter a rotina atual de cuidados e observar a planta nos proximos dias.
+PC-0284,orquidea,6,7,seco,baixa,24,nao,nao,sim,nao,sim,possivel_praga,alto,"Inspecionar folhas e caule, isolar a planta se necessario e remover folhas afetadas."
+PC-0285,manjericao,4,2,normal,media,32,sim,nao,sim,sim,sim,possivel_praga,alto,"Inspecionar folhas e caule, isolar a planta se necessario e remover folhas afetadas."
+PC-0286,manjericao,0,2,seco,alta,24,nao,nao,nao,nao,nao,saudavel,baixo,Manter a rotina atual de cuidados e observar a planta nos proximos dias.
+PC-0287,manjericao,3,2,normal,alta,20,sim,nao,nao,sim,sim,necessita_adubo,baixo,Avaliar adubacao leve conforme o tipo da planta e manter acompanhamento semanal.
+PC-0288,suculenta,0,10,encharcado,media,21,sim,nao,nao,sim,sim,excesso_agua,alto,Reduzir a frequencia de rega e verificar se o vaso possui boa drenagem.
+PC-0289,cacto,14,14,normal,media,21,sim,nao,nao,sim,nao,necessita_adubo,baixo,Avaliar adubacao leve conforme o tipo da planta e manter acompanhamento semanal.
+PC-0290,cacto,19,14,seco,alta,28,nao,sim,nao,nao,nao,falta_agua,medio,Regar a planta e acompanhar a recuperacao das folhas nas proximas 24 horas.
+PC-0291,lirio_da_paz,4,3,normal,baixa,21,nao,nao,nao,nao,nao,saudavel,baixo,Manter a rotina atual de cuidados e observar a planta nos proximos dias.
+PC-0292,costela_de_adao,7,5,normal,alta,26,nao,sim,sim,sim,nao,possivel_praga,alto,"Inspecionar folhas e caule, isolar a planta se necessario e remover folhas afetadas."
+PC-0293,jiboia,9,4,seco,alta,28,nao,sim,nao,nao,nao,falta_agua,medio,Regar a planta e acompanhar a recuperacao das folhas nas proximas 24 horas.
+PC-0294,cacto,13,14,normal,baixa,23,sim,nao,nao,sim,nao,pouca_luz,medio,Mover a planta para um local com mais luz indireta e acompanhar o crescimento.
+PC-0295,cacto,13,14,normal,alta,21,sim,nao,nao,sim,nao,necessita_adubo,baixo,Avaliar adubacao leve conforme o tipo da planta e manter acompanhamento semanal.
+PC-0296,orquidea,9,7,encharcado,media,29,sim,sim,sim,sim,nao,possivel_praga,alto,"Inspecionar folhas e caule, isolar a planta se necessario e remover folhas afetadas."
+PC-0297,espada_de_sao_jorge,1,12,encharcado,baixa,26,sim,nao,nao,sim,sim,excesso_agua,alto,Reduzir a frequencia de rega e verificar se o vaso possui boa drenagem.
+PC-0298,espada_de_sao_jorge,11,12,normal,media,28,sim,nao,nao,sim,sim,necessita_adubo,baixo,Avaliar adubacao leve conforme o tipo da planta e manter acompanhamento semanal.
+PC-0299,samambaia,11,2,seco,alta,34,nao,sim,nao,nao,nao,falta_agua,medio,Regar a planta e acompanhar a recuperacao das folhas nas proximas 24 horas.
+PC-0300,manjericao,2,2,normal,media,24,sim,nao,nao,sim,nao,necessita_adubo,baixo,Avaliar adubacao leve conforme o tipo da planta e manter acompanhamento semanal.
+PC-0301,jiboia,4,4,normal,media,24,sim,nao,nao,sim,nao,necessita_adubo,baixo,Avaliar adubacao leve conforme o tipo da planta e manter acompanhamento semanal.
+PC-0302,zamioculca,12,10,seco,alta,30,sim,sim,sim,nao,nao,excesso_sol,medio,Mover a planta para um local com menos sol direto e evitar exposicao nas horas mais quentes.
+PC-0303,jiboia,2,4,normal,media,26,nao,nao,nao,nao,nao,saudavel,baixo,Manter a rotina atual de cuidados e observar a planta nos proximos dias.
+PC-0304,samambaia,4,2,normal,media,21,sim,nao,nao,sim,nao,necessita_adubo,baixo,Avaliar adubacao leve conforme o tipo da planta e manter acompanhamento semanal.
+PC-0305,espada_de_sao_jorge,16,12,normal,alta,33,sim,sim,sim,nao,nao,excesso_sol,medio,Mover a planta para um local com menos sol direto e evitar exposicao nas horas mais quentes.
+PC-0306,samambaia,2,2,normal,baixa,24,nao,sim,nao,sim,nao,pouca_luz,medio,Mover a planta para um local com mais luz indireta e acompanhar o crescimento.
+PC-0307,manjericao,1,2,normal,alta,24,sim,nao,nao,sim,sim,necessita_adubo,baixo,Avaliar adubacao leve conforme o tipo da planta e manter acompanhamento semanal.
+PC-0308,orquidea,3,7,encharcado,baixa,21,sim,nao,sim,sim,sim,excesso_agua,alto,Reduzir a frequencia de rega e verificar se o vaso possui boa drenagem.
+PC-0309,samambaia,2,2,encharcado,media,25,sim,nao,nao,sim,sim,excesso_agua,alto,Reduzir a frequencia de rega e verificar se o vaso possui boa drenagem.
+PC-0310,costela_de_adao,8,5,seco,alta,26,nao,sim,nao,nao,sim,falta_agua,medio,Regar a planta e acompanhar a recuperacao das folhas nas proximas 24 horas.
+PC-0311,zamioculca,10,10,seco,alta,34,sim,sim,sim,nao,nao,excesso_sol,medio,Mover a planta para um local com menos sol direto e evitar exposicao nas horas mais quentes.
+PC-0312,manjericao,3,2,seco,alta,35,nao,sim,sim,nao,nao,excesso_sol,medio,Mover a planta para um local com menos sol direto e evitar exposicao nas horas mais quentes.
+PC-0313,orquidea,8,7,normal,media,24,sim,nao,nao,sim,sim,necessita_adubo,baixo,Avaliar adubacao leve conforme o tipo da planta e manter acompanhamento semanal.
+PC-0314,orquidea,0,7,encharcado,media,26,sim,nao,nao,sim,sim,excesso_agua,alto,Reduzir a frequencia de rega e verificar se o vaso possui boa drenagem.
+PC-0315,costela_de_adao,5,5,normal,media,27,nao,nao,nao,nao,nao,saudavel,baixo,Manter a rotina atual de cuidados e observar a planta nos proximos dias.
