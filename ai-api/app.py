@@ -11,6 +11,20 @@ MODEL_PATH = BASE_DIR.parent / "models" / "plantcare_model.pkl"
 
 model = joblib.load(MODEL_PATH)
 
+REQUIRED_FIELDS = [
+    "tipo_planta",
+    "dias_sem_rega",
+    "frequencia_ideal_rega",
+    "umidade_solo",
+    "luz_recebida",
+    "temperatura_media_c",
+    "folhas_amareladas",
+    "folhas_murchas",
+    "manchas_folhas",
+    "crescimento_lento",
+    "solo_compactado"
+]
+
 RECOMMENDATIONS = {
     "saudavel": "Manter a rotina atual de cuidados.",
     "falta_agua": "Regue a planta e acompanhe a recuperação nas próximas 24 horas.",
@@ -42,16 +56,26 @@ def health():
 
 @app.route("/predict", methods=["POST"])
 def predict():
-    data = request.get_json()
+    data = request.get_json(silent=True)
 
     if not data:
         return jsonify({
             "error": "JSON body is required"
         }), 400
 
+    missing_fields = [
+        field for field in REQUIRED_FIELDS
+        if field not in data
+    ]
+
+    if missing_fields:
+        return jsonify({
+            "error": "Missing required fields",
+            "fields": missing_fields
+        }), 400
+
     try:
         input_df = pd.DataFrame([data])
-
         prediction = model.predict(input_df)[0]
 
         response = {
@@ -67,9 +91,7 @@ def predict():
             probabilities = model.predict_proba(input_df)[0]
             classes = model.named_steps["model"].classes_
 
-            confidence = max(probabilities)
-            response["confianca"] = round(float(confidence), 4)
-
+            response["confianca"] = round(float(max(probabilities)), 4)
             response["probabilidades"] = {
                 str(class_name): round(float(prob), 4)
                 for class_name, prob in zip(classes, probabilities)
@@ -82,7 +104,6 @@ def predict():
             "error": "Prediction failed",
             "details": str(error)
         }), 500
-
 
 if __name__ == "__main__":
     app.run(debug=True, host="0.0.0.0", port=5000)
