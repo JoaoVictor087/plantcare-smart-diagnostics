@@ -1,32 +1,38 @@
 # PlantCare Smart Diagnostics
 
-API de Inteligência Artificial para diagnóstico inteligente de plantas no projeto PlantCare.
+## 1. Descrição da Solução
+O PlantCare é um sistema inteligente de monitoramento de plantas que utiliza sensores IoT para coletar dados em tempo real. A solução processa esses dados através de um modelo de Inteligência Artificial para diagnosticar a saúde da planta, permitindo intervenções preventivas. O sistema é composto por um microsserviço Java, um modelo de IA em Python e integração analítica com Oracle APEX.
 
-A API recebe dados informados pelo usuário, como umidade do solo, luminosidade, sintomas nas folhas e frequência de rega. Com base nesses dados, um modelo de Machine Learning classifica o possível estado da planta e retorna um diagnóstico, nível de risco e recomendação de cuidado.
+## 2. Explicação do Modelo de IA
+* **Modelo Utilizado:** LogisticRegression
+* **Justificativa:** Escolhemos este modelo devido à sua alta eficiência em classificação de dados tabulares (umidade, temperatura, luz) e baixo tempo de inferência, ideal para integrações em tempo real.
+* **Treinamento:** O modelo foi treinado com um dataset contendo aproxidamente 300 amostras de estados de saúde de plantas (seco, ideal, encharcado), garantindo precisão nas predições de estresse hídrico e térmico.
 
-## Objetivo
+## 3. Fluxo de Integração (Diagrama de Arquitetura)
+O fluxo de dados ocorre da seguinte forma:
+1. **Coleta:** Sensores enviam dados via HTTP para nossa API Java.
+2. **Diagnóstico:** A API Spring Boot encaminha os dados para o microsserviço de IA na Azure (`/predict`).
+3. **Persistência:** O resultado é salvo no **Oracle Database** (Tabela `T_PC_DIAGNOSTICOS_IA`).
+4. **Analytics:** O **Oracle APEX** processa esse histórico via ORDS, gerando métricas de saúde (Saudômetro) consumidas pelo aplicativo Mobile.
 
-Integrar um componente de IA ao Oracle APEX, permitindo que o APEX envie dados da planta para a API e receba uma recomendação automática.
 
-## Tecnologias
+## 4. Instruções de Uso
 
-- Python
-- Flask
-- Pandas
-- Scikit-learn
-- Joblib
-- Oracle APEX como consumidor da API
+### Pré-requisitos
+* Python 3.14
+* Flask
+* scikit-learn
+*joblib
+*flask
+*pytest
+* Acesso ao Oracle Autonomous Database (Wallet configurada)
+* Variáveis de ambiente configuradas no arquivo `.env`
 
-## Estrutura
-
-```text
-plantcare-smart-diagnostics/
-├── ai-api/
-│   ├── app.py
-│   └── train-ai.ipynb
-├── data/
-│   └── plantcare_dataset_sintetico.csv
-├── models/
-│   └── plantcare_model.pkl
-├── requirements.txt
-└── README.md
+### Configuração
+1. Clone o repositório: `git clone https://github.com/JoaoVictor087/plantcare-smart-diagnostics`
+2. Configure o arquivo `.env` na raiz do projeto:
+   ```env
+   DB_URL=jdbc:oracle:thin:@...
+   DB_USERNAME=ADMIN
+   DB_PASSWORD=...
+   AI_API_URL=https://<url-da-sua-ia-python>.azurewebsites.net
