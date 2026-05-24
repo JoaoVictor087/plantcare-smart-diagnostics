@@ -1,10 +1,15 @@
-from flask import Flask, request, jsonify
-import pandas as pd
+from pathlib import Path
+import os
+
 import joblib
+import pandas as pd
+from flask import Flask, request, jsonify
+from flask_cors import CORS
+
 
 app = Flask(__name__)
 
-from pathlib import Path
+CORS(app)
 
 BASE_DIR = Path(__file__).resolve().parent
 MODEL_PATH = BASE_DIR.parent / "models" / "plantcare_model.pkl"
@@ -22,7 +27,7 @@ REQUIRED_FIELDS = [
     "folhas_murchas",
     "manchas_folhas",
     "crescimento_lento",
-    "solo_compactado"
+    "solo_compactado",
 ]
 
 RECOMMENDATIONS = {
@@ -32,7 +37,7 @@ RECOMMENDATIONS = {
     "pouca_luz": "Mova a planta para um local com mais luz indireta.",
     "excesso_sol": "Mova a planta para um local com menos exposição solar direta.",
     "possivel_praga": "Verifique folhas e caule em busca de sinais de pragas.",
-    "necessita_adubo": "Considere adubar a planta conforme a necessidade da espécie."
+    "necessita_adubo": "Considere adubar a planta conforme a necessidade da espécie.",
 }
 
 RISK_LEVELS = {
@@ -42,8 +47,17 @@ RISK_LEVELS = {
     "pouca_luz": "medio",
     "excesso_sol": "medio",
     "possivel_praga": "alto",
-    "necessita_adubo": "medio"
+    "necessita_adubo": "medio",
 }
+
+
+@app.route("/", methods=["GET"])
+def index():
+    return jsonify({
+        "service": "plantcare-ai-api",
+        "status": "running",
+        "endpoints": ["/health", "/predict"]
+    })
 
 
 @app.route("/health", methods=["GET"])
@@ -105,5 +119,12 @@ def predict():
             "details": str(error)
         }), 500
 
+
 if __name__ == "__main__":
-    app.run(debug=True, host="0.0.0.0", port=5000)
+    port = int(os.environ.get("PORT", 5000))
+
+    app.run(
+        host="0.0.0.0",
+        port=port,
+        debug=os.environ.get("FLASK_DEBUG") == "1"
+    )
